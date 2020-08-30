@@ -1,4 +1,6 @@
 {
     "jwtSecret" : "mysecrettoken",
-    "mongoURI" : "mongodb+srv://HusseinJaber20:Arsenal123@devconnector.z7mwj.mongodb.net/<dbname>?retryWrites=true&w=majority"
+    "mongoURI" : "mongodb+srv://HusseinJaber20:Arsenal123@devconnector.z7mwj.mongodb.net/<dbname>?retryWrites=true&w=majority",
+    "githubClientId": "097d275baea963fa532d",
+    "githubSecret": "6a27787e5bb68840d1320ffb1e3d018d2f5b445a"
 }
