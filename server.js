@@ -7,7 +7,10 @@ const app = express()
 connectDB()
 
 // Init Middleware function to parse the POST requests
+// Before every request, this middleware function will get called, parse the request into a json and insert it into
+// the req.body. Then the function will call the next middleware function which is the post method for example.
 app.use(express.json({extended: false}))
+
 
 app.get('/', (req,res) => {
     res.send('API RUNNING')
