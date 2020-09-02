@@ -271,7 +271,10 @@ button {
   padding: 0.5rem;
   width: 4rem;
 }
-
+.navlist{
+  margin-top:17px;
+  font-size: 15px;
+}
 .form .social-input i.fa-twitter {
   color: #38a1f3;
 }
